@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes open {
+    0% { transform: translateX(-80);}
+    100%{transform: translateX(0);}
+}
+
+@keyframes close {
+    0% { transform: translateX(0);}
+    100%{transform: translateX(-80);}
+}
+body{
+    animation:  forwards 2s linear ;
+}
