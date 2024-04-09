@@ -23,6 +23,9 @@ module.exports = {
       animation:{
         openan:'open forwards 2s linear',
         closean: 'close forwards 2s linear'
+      },
+      fontFamily:{
+          Inter:["Inter", 'sans-serif']
       }
     },
   },

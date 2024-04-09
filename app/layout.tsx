@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="h-screen">
       <head />
-      <body className="h-full overflow-y-hidden bg-background">
+      <body className="h-full overflow-y-hidden bg-background font-Inter">
         <Providers
           themeProps={{ attribute: "class", defaultTheme: "dark" }}
         >

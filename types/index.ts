@@ -8,3 +8,8 @@ export type MenuItemType = {
   text: string ,
   icon: React.ReactElement
 }
+
+export type ListTaskType ={
+  name: string,
+  color: string,
+}

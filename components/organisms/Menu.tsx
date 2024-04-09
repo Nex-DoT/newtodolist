@@ -7,6 +7,11 @@ import SearchBar from '../atom/SearchBar';
 import ThemeToggleBtn from '../ui/theme-switch';
 import MenuTask from '../molecules/MenuTask';
 import { DataNameMenu } from '@/lib/MenuDataName';
+import ListTask from '../atom/ListTask';
+import ListTasks from '../molecules/ListTasks';
+import IconTextButton from '../atom/IconTextButton';
+import { FaSignOutAlt } from "react-icons/fa";
+
 const Menu = () => {
     const [menu , setMenu] = useState(true)
     const menuHandeler = ()=>{
@@ -24,8 +29,13 @@ const Menu = () => {
                 </div>
                 <SearchBar/>
                 <MenuTask/>
+                <hr className=' border-opacity-60 border-primary-200' />
+                <ListTasks/>
             </div>
-            <ThemeToggleBtn/>
+            <div className='w-full'>
+                <ThemeToggleBtn/>
+                <IconTextButton text='SingOut' icon={<FaSignOutAlt/>} />
+            </div>
         </menu>
     );
 };
