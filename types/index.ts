@@ -13,3 +13,8 @@ export type ListTaskType ={
   name: string,
   color: string,
 }
+
+export type ClockType = {
+  type: string,
+  e : Event
+}

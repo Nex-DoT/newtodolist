@@ -11,6 +11,9 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
+        skew:{
+          '90': '45deg'
+        },
         openmenu: {
           '0%': { transform: 'translateX(-80);' },
           '100%': { transform: 'translateX(0);' },
